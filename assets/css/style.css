@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: url(/assets/img/hero-image.jpg);
+    background-size: cover;
+    height: 500px;
+    
+  }
+  /* .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  } */
+  
