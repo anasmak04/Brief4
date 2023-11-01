@@ -1,11 +1,7 @@
 ﻿@charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Template Name – HTML5 Template
-    Author: Theme Pure
-    Support: basictheme@gmail.com
-    Description: Template Name  – HTML5 Template
-    Version: 1.0
+  
 
 -----------------------------------------------------------------------------------
 
@@ -8680,7 +8676,7 @@ p.checkout-coupon input[type=text]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../../Untitled\ design\ \(10\).png);
+  background-image: url(../../assets/img/footer.png);
  /* background-color: red; */
 }
 
