@@ -1,0 +1,10 @@
+.Hero-section{
+background: linear-gradient(180deg, #30B7FF 0%, rgba(19, 135, 236, 0.59) 49.37%, rgba(48, 183, 255, 0.16) 100%);
+}
+.service_card{
+    background-color: #EEFBFF !important;
+
+}
+.header_text{
+    padding-left: 15%;
+}
