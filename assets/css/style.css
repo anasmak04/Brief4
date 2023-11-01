@@ -2023,7 +2023,7 @@ input[type=color] {
 /*----------------------------------------*/
 .header-pl-pr {
   padding-left: 60px;
-  padding-right: 40px;
+  padding-right: 90px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .header-pl-pr {
