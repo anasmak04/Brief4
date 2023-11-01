@@ -59,28 +59,8 @@ $(window).on('load', function () {
 	$('body').delay(350).css({ 'overflow': 'visible' });
 
 })
-
 	
-	//  MagnificPopup video view Js
-	$(".popup-video").magnificPopup({
-	   type: "iframe",
-    });
 
-	
-	//26.isotope
-	$('.grid').imagesLoaded(function () {
-		// init Isotope
-		var $grid = $('.grid').isotope({
-			itemSelector: '.grid-item',
-			percentPosition: true,
-			layoutMode: 'fitRows',
-			masonry: {
-				// use outer width of grid-sizer for columnWidth
-				columnWidth: 1,
-			},
-			
-		});
-			
 		//for menu active class
 		$('.masonary-menu button').on('click', function (event) {
 			$(this).siblings('.active').removeClass('active');
@@ -88,7 +68,7 @@ $(window).on('load', function () {
 			event.preventDefault();
 		});
 
-	});	
+
 
 
 })(jQuery);
