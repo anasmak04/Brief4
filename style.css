@@ -198,9 +198,15 @@
 }
 
 .bg-section {
-  background-image: url("/assets/Untitled_design_10.png");
+  background-image: url("/assets/img/Untitled_design_10.png");
   text-align: center;
   padding: 50px;
+}
+
+.btn{
+  background-color: #007BFF;
+  color: white !important;
+  border: none;
 }
 
 
@@ -213,7 +219,7 @@
   position: relative;
   background-size: cover;
   padding-bottom: 30px;
-  background-image: url("/assets/Untitled_design_10.png");
+  background-image: url("/assets/img/Untitled_design_10.png");
   color: white  ;
 }
 
