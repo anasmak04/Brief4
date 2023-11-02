@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url(/assets/img/hero-image.jpg);
+    background-image: url("../img/hero-image.jpg");
     background-size: cover;
     height: 400px;
     width: 100%;
@@ -32,11 +32,11 @@
     font-size: 36px!important;
   }
   .section3{
-    min-height: 50vh;
+    min-height: 40vh;
     background-color: #EEFBFF;
   }
   .section5{
-    height: 40vh;
+    max-height: 40vh;
     background-color: rgb(19, 135, 236, 0.59);
   }
 
@@ -50,10 +50,10 @@
     letter-spacing: -0.55px;
   }
   .counters{
-    padding: 3em 2em;
-    background:#1387EC;
+    /* padding: 3em 2em; */
     color: #FFF;
     text-align: center;
+    font-size: 40px;
   }
 
   .card-img-top{
@@ -65,8 +65,14 @@
   .card-img-top:hover{
     opacity:1;
     transition: 1s ease;
-   
     
   }
+
+  .card-background{
+    background-color: #EEFBFF!important;
+  }
+.section8{
+  background-color: rgb(19, 135, 236, 0.59);
+}
  
  
