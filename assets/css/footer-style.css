@@ -3,8 +3,9 @@
   position: relative;
   background-size: cover;
   padding-bottom: 30px;
-  background-image: url("../img/Untitled_design_10.png");
+  background-image: url("../img/footer.png");
   color: white  ;
+  padding-top: 80px;
   
 }
 
@@ -217,6 +218,6 @@ li{
   opacity: 1;
   
 }
-a{
+li a{
     text-decoration: none;
 }
