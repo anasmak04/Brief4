@@ -1,4 +1,42 @@
 
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #a2a2a2;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+  
+  }
+
+
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .container-fluid {
   background: linear-gradient(
@@ -18,7 +56,8 @@
 }
 
 
-  
+
+
 
 .simpleModal{
     display: none;
@@ -179,11 +218,7 @@
   }
 }
 
-@media (max-width: 600px) {
-  .carousel-inner{
-    background-color: red;
-  }
-}
+
 
 .form-control,
 .input-group-text {
@@ -432,3 +467,41 @@ li{
   opacity: 1;
   
 }
+
+#error{
+  color: red;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .carousel-inner .carousel-item {
+    display: block;
+    width: 100%;
+  }
+  .carousel-inner .carousel-item > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .carousel-inner .carousel-item.active {
+    display: block;
+  }
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev,
+  .carousel-inner .carousel-item-right {
+    transform: translateX(0);
+  }
+  .carousel-inner .carousel-item-left {
+    transform: translateX(0);
+  }
+  .carousel-inner .carousel-item-next.carousel-item-left,
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    transform: translateX(0);
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) {
+    transform: translateX(0);
+  }
+}
+
+
+
