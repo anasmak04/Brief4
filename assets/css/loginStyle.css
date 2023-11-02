@@ -1,0 +1,81 @@
+
+  .containerGlobal{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    padding-bottom: 140px;
+    justify-content: center;
+    box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+  }
+
+  .container {
+    max-width: 500px;
+    width: 40%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+   
+  }
+  .containerImg{
+    width: 60%;
+    position: relative;
+  }
+  .containerImg img{
+    position: absolute;
+    width: 100%;
+    scale: 1.11;
+  }
+  @media (max-width: 850px) {
+    .containerImg{
+        display: none;
+    }
+    .containerGlobal{
+        padding-bottom: 40px;  
+    }
+  }
+  .creatCpt{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 50px;
+    border: 1px solid #656ED3;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.92);
+
+  }
+  .form-group input:focus{
+    outline: none;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid var(--Linear, #305EFF);
+    background: var(--Linear, linear-gradient(180deg, #305EFF 0%, rgba(19, 135, 236, 0.59) 49.37%, #30B7FF 100%));
+  }
+
+  .form-group button:hover {
+    background-color: #45a049;
+  }

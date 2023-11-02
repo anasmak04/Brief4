@@ -80,7 +80,7 @@
   
   .box .input {
     width: 100%;
-    height: 55px;
+  
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -93,7 +93,6 @@
   } */
   .box .container {
     width: 100%;
-    height: 66px;
     margin-bottom: -12px;
   }
   
@@ -130,7 +129,7 @@
   }
   
   .box .container-wrapper {
-    height: 54px;
+    
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -175,7 +174,7 @@
   .box .container-2 {
     width: 60%;
     min-width: 300px;
-    height: 64px;
+    
   }
   
   .box .label-text-3 {
@@ -197,7 +196,7 @@
   
   .box .container-3 {
     width: 30%;
-    height: 64px;
+    
     min-width: 167px;
   }
   
@@ -219,7 +218,7 @@
   }
   
   .box .input-2 {
-    height: 56px;
+  
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -271,7 +270,7 @@
   
   .box .checkbox-no-label {
     width: 24px;
-    height: 24px;
+   
   }
   
   .box .label-text-5 {
@@ -324,7 +323,7 @@
   
   .box .checkbox-off {
     width: 16px;
-    height: 16px;
+    
     background-color: #ffffff;
     border-radius: 2px;
     border: 1px solid;
@@ -362,7 +361,7 @@
   
   .box .img {
     width: 28.27px;
-    height: 28.42px;
+   
     margin-left: -0.27px;
   }
   
@@ -389,7 +388,7 @@
   
   .box .frame-4 {
     width: 28px;
-    height: 28px;
+    
   }
   
   .box .text-wrapper-5 {
