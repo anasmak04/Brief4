@@ -18,95 +18,63 @@
    <link rel="stylesheet" href="assets/css/meanmenu.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/style.css">
+   <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 </head>
 
 <body>
 
-   <style></style>
-
-   <header>
-      <!-- tp-header-area-start -->
-       <div id="header-sticky" class="tp-header-area header-pl-pr  header-border-bottom"  style="height: 80px;" >
-         <div class="container-fluid" >
-            <div class="row g-0 align-items-center" style="margin-left: 10%;">
-               <!-- <div class="col-xl-2 col-lg-2 col-md-4 col-6" style="margin-bottom: 4%;">
-                  <div class="tp-logo">
-                     <a title="go here" href="index.html">
-                        <img src="YourInterface.png" alt="">
-                     </a>
-                  </div>
-               </div> -->
-               <div class="col-xl-10 col-lg-10 col-md-8 col-6 d-flex " >
-                  <div class="tp-main-menu d-none d-xl-block" >
-
-                     
-                     <!-- <nav id="mobile-menu">
-                        <ul style="display: flex; align-items: center;">
-                           <li><a title="go here" href="index.html">Home</a>
-                             
-                           </li>
-                           <li><a title="go here" href="about-us.html">About</a>
-                             
-                           </li>
-                           <li><a title="go here" href="case-details.html">Our Project</a>
-                              
-                           </li>
-                           <li><a title="go here" href="service-details.html">Services</a>
-                              
-                           </li>
-                           <li><a title="go here" href="#">Pages</a>
-                              <ul class="submenu">
-                                 <li><a title="go here" href="blog.html">Blog Sidebar</a></li>
-                                 <li><a title="go here" href="blog-details.html">Blog Details</a></li>
-                                 <li><a title="go here" href="faq.html">Faq</a></li>
-                                 <li><a title="go here" href="cart.html">Cart</a></li>
-                                 <li><a title="go here" href="contact.html">Contact</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </nav> -->
-               
-                  </div>
-
-
-
-                  <!-- <div class="tp-header-right">
-                     <ul>
-                        <li><a title="go here" class="tp-menu-bar" href="javascript:void(0)"><i class="fas fa-bars"></i></a></li>
-                     </ul>
-                  </div> -->
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- tp-header-area-end -->
-   </header>
-
-   <!-- tp-offcanvus-area-start -->
-      <div class="tp-offcanvas-area" >
-      <div class="tpoffcanvas">
-         <div class="tpoffcanvas__close-btn">
-            <button class="close-btn"><i class="fal fa-times"></i></button>
-         </div>
-         <div class="tpoffcanvas__logo pt-50">
-            <a title="go here" href="index.html">
-               <img src="assets/img/logo/logo-white.png" alt="" width="#" height="#">
-            </a>
-         </div>
-         <div class="mobile-menu"></div>
-         <div class="tpoffcanvas__social">
-            <div class="social-icon">
-               <a title="go here" href="#"><i class="fab fa-twitter"></i></a>
-               <a title="go here" href="#"><i class="fab fa-instagram"></i></a>
-               <a title="go here" href="#"><i class="fab fa-facebook-square"></i></a>
-               <a title="go here" href="#"><i class="fab fa-dribbble"></i></a>
-            </div>
-         </div>
-      </div>
-      </div>
    
-      <div class="body-overlay"></div>
-   <!-- tp-offcanvus-area-end -->
+
+   <header role="banner" >
+      <nav class="navbar navbar-expand-md navbar-dark bg-light" >
+        <div class="container">
+         
+          <a class="navbar-brand" href="index.html" ><img src="assets/img/logO/Untitled_design__12_-removebg-preview.png" alt="" height=55px"></a>
+          <button class="navbar-toggler" style="background-color: #30B7FF;" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample05" >
+            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Recipes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item text-dark" href="#">Food Catering</a>
+                  <a class="dropdown-item text-dark" href="#">Drink &amp; Beverages</a>
+                  <a class="dropdown-item text-dark" href="#">Wedding &amp; Birthday</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">News</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link text-dark" href="#">Contact Us</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   
 
    <main>
       <!-- tp-slider-area-start -->
@@ -791,7 +759,21 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/meanmenu.js"></script>
    <script src="assets/js/main.js"></script>
-
+   <script
+   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+   crossorigin="anonymous"
+ ></script>
+ <script
+   src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+   integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+   crossorigin="anonymous"
+ ></script>
+ <script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+   crossorigin="anonymous"
+ ></script>
 
 
 </body>
