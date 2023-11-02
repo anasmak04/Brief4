@@ -1,0 +1,228 @@
+/* ////////footer//// */
+.footer-bg {
+    position: relative;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-image: url("../img/Untitled_design_10.png");
+    padding-top: 120px;
+    color: white  ;
+  }
+  
+
+  li{
+    text-align: center;
+  }
+li a{
+    text-decoration: none;
+    text-align: center;
+}
+  .tp-footer-title{
+  text-align: center;
+  }
+  
+  
+  
+  .footer-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background-color: red; */
+  }
+  
+  .tp-footer-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tp-common-white);
+    padding-bottom: 20px;
+  }
+  
+  .tp-footer-widget__social {
+    position: relative;
+  }
+  .tp-footer-widget__social a {
+    position: relative;
+    display: inline-block;
+  }
+  .tp-footer-widget__social a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .tp-footer-widget__list ul.footer-position li {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  .tp-footer-widget__list ul.footer-position li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--tp-common-white);
+  }
+  .tp-footer-widget__list ul.footer-position li a span {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    font-size: 20px;
+  }
+  .tp-footer-widget__list ul li {
+    padding-bottom: 5px;
+  }
+  .tp-footer-widget__list ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--tp-common-white);
+    transition: 0.3s;
+  }
+  .tp-footer-widget__list ul li a:hover {
+    color: black;
+  }
+  
+  .footer-space-one {
+    padding-left: 50px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-space-one {
+      padding-left: 0px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .footer-space-one {
+      padding-left: 0px;
+    }
+  }
+  
+  .footer-border-top {
+    border-top: 1px solid var(--tp-border-5);
+  }
+  
+  .copyright-left p {
+    color: var(--tp-common-white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .copyright-right-side ul {
+      margin-bottom: 30px;
+    }
+  }
+  .copyright-right-side ul li {
+    display: inline-block;
+    padding-left: 50px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .copyright-right-side ul li {
+      padding-left: 15px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .copyright-right-side ul li {
+      padding-left: 0px;
+      padding: 0px 15px;
+    }
+  }
+  @media (max-width: 767px) {
+    .copyright-right-side ul li {
+      padding-left: 0px;
+      padding: 0px 10px;
+    }
+  }
+  .copyright-right-side ul li:first-child {
+    padding-left: 0;
+  }
+  .copyright-right-side ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--tp-common-white);
+  }
+  .copyright-right-side ul li a:hover {
+    color: black;
+  }
+  
+  .footer-scroll {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+  }
+  .footer-scroll button {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 2px dashed var(--tp-common-white);
+    border-radius: 50%;
+  }
+  
+  .footer-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: var(--tp-common-white);
+    transition: 0.4s;
+    z-index: 99;
+  }
+  @media (max-width: 767px) {
+    .footer-icons {
+      font-size: 20px;
+    }
+  }
+  
+  .scroll-top {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: -10%;
+    right: 50px;
+    font-size: 16px;
+    border-radius: 6px;
+    z-index: 99;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    background: #6864ED;
+    transition: 1s ease;
+    border: none;
+  }
+  @media (max-width: 767px) {
+    .scroll-top {
+      right: 30px;
+    }
+  }
+  
+  .scroll-top.open {
+    bottom: 30px;
+  }
+  
+  .scroll-top::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    
+  }
