@@ -6,7 +6,7 @@ background: linear-gradient(180deg, #30B7FF 0%, rgba(19, 135, 236, 0.59) 49.37%,
 
 }
 .header_text{
-    padding-left: 15%;
+    padding-left: 15% !important;
 }
 .recent-works{
     background: linear-gradient(180deg, #30B7FF 0%, rgba(19, 135, 236, 0.59) 49.37%, rgba(48, 183, 255, 0.16) 100%);
