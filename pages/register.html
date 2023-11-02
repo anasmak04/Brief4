@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../assets/css/loginStyle.css">
+</head>
+<body>
+    
+    <section class="containerGlobal">
+
+        <div class="container containerImg">
+            <img src="../assets/img/Frame 2.svg" alt="image">
+          </div>
+
+        <div class="container">
+            <h2>Inscription</h2>
+            <form id="register-form">
+              <div class="form-group">
+                <label for="fullname">Full name :</label>
+                <input type="text" id="fullname" required>
+              </div>
+              <div class="form-group">
+                <label for="username">Username :</label>
+                <input type="text" id="username" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" id="password" required>
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm password :</label>
+                <input type="password" id="confirm-password" required>
+              </div>
+              <div class="form-group">
+                <button type="submit">Register</button>
+              </div>
+            </form>
+            <p style="width: 100%; text-align: center;"><a class="creatCpt" href="login.html">Yes i have an account? <strong> Login</strong></a></p>
+            <div class="social-media-icones" style="width: 100%; text-align: center;">
+                <a href="#"><img src="../assets/img/Social media icons.svg" height="35px" alt="icon"></a>
+            </div>
+          </div>
+    </section>
+<script type="text/javascript" src="../assets/js/registerScript.js"></script>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page d'inscription</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  
+
+  <script>
+    const form = document.getElementById('register-form');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const fullname = document.getElementById('fullname').value;
+      const username = document.getElementById('username').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirm-password').value;
+
+      // Validation du formulaire
+      if (fullname === '' || username === '' || email === '' || password === '' || confirmPassword === '') {
+        alert('Veuillez remplir tous les champs');
+      } else if (password !== confirmPassword) {
+        alert('Les mots de passe ne correspondent pas');
+      } else {
+        alert('Formulaire soumis avec succès');
+        form.reset();
+      }
+    });
+  </script>
+</body>
+</html>
+-->
+
