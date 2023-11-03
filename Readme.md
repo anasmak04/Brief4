@@ -1,7 +1,7 @@
 Trello Link : https://trello.com/b/lZ7dcQlW/company-overview <br>
 website Link : https://brief4.vercel.app
 <br>
-Canva Presentation Link : https://www.canva.com/design/DAFzHlafyhQ/fN-MIKQXkliCi8nRAez-UQ
+Canva Presentation Link : [https://www.canva.com/design/DAFzHlafyhQ/fN-MIKQXkliCi8nRAez-UQ](https://www.canva.com/design/DAFzHlafyhQ/fN-MIKQXkliCi8nRAez-UQ/edit)
 
 # StartUp Web Solutions
 
