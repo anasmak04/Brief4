@@ -40,7 +40,11 @@
     max-height: 40vh;
     background-color: rgb(19, 135, 236, 0.59);
   }
-
+.navbar-brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   h1{
     color: #FFF!important;
     font-family: DM Sans;
