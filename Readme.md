@@ -20,7 +20,7 @@ Welcome to StartUp Web Solutions, your go-to partner for building websites that 
 | Name                | Role                     | Image                                                                                                                                   |
 | ------------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Anas Elmakhloufi    | scrum Master             | <img src="https://intranet.youcode.ma/storage/users/profile/843-1697011936.jpg" width="100" height="100" style="border-radius: 50%;">   |
-| El Mehdi Er.raji    | Full stack Developer     | <img src="https://intranet.youcode.ma/storage/users/profile//846-1697011953.jpg" width="100" height="100" style="border-radius: 50%;">  |
-| Aymane Bisdaoune    | Figma Expert             | <img src="https://intranet.youcode.ma/storage/users/profile/853-1697011944.jpg" width="100" height="100" style="border-radius: 50%;">   |
-| Salma elgmiri       | Bootstrap Expert         | <img src="https://intranet.youcode.ma/storage/users/profile/870-1697012819.jpg"  width="100" height="100"  style="border-radius: 50%;"> |
-| Abdelouahab Lahdili | The Most Questions Asker | <img src="https://intranet.youcode.ma/storage/users/profile/902-1697011835.jpg" width="100" height="100" style="border-radius: 50%;">   |
+| El Mehdi Er.raji    | Front-end Develper     | <img src="https://intranet.youcode.ma/storage/users/profile//846-1697011953.jpg" width="100" height="100" style="border-radius: 50%;">  |
+| Aymane Bisdaoune    | Front-end Develper            | <img src="https://intranet.youcode.ma/storage/users/profile/853-1697011944.jpg" width="100" height="100" style="border-radius: 50%;">   |
+| Salma elgmiri       | Front-end Develper         | <img src="https://intranet.youcode.ma/storage/users/profile/870-1697012819.jpg"  width="100" height="100"  style="border-radius: 50%;"> |
+| Abdelouahab Lahdili | Front-end Develper | <img src="https://intranet.youcode.ma/storage/users/profile/902-1697011835.jpg" width="100" height="100" style="border-radius: 50%;">   |
