@@ -3,7 +3,6 @@
   position: relative;
   background-size: cover;
   padding-bottom: 30px;
-  background-image: url("/assets/img/footer.png");
   color: white  ;
   padding-top: 80px;
   
@@ -14,7 +13,6 @@
 .tp-footer-title{
 text-align: center;
 }
-
 
 
 
