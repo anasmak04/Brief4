@@ -5519,3 +5519,13 @@ blockquote cite::before {
 
 
 
+.btn{
+  background-color: #007BFF;
+  color: white !important;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #007BFF;
+ 
+}
