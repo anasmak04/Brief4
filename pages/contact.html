@@ -73,7 +73,7 @@
 
     <div class="box">
       <div class="group">
-        <form action="#" class="mb-5" method="post" id="contactForm" name="contactForm">
+        <form action="#" class="was-validated needs-validation">
           <p class="get-in-touch">
             <span class="span">Get in </span>
             <span class="text-wrapper-2">touch</span>
@@ -95,16 +95,19 @@
               <div class="container">
                 <div class="div">
                   <input
+                  
                     class="label-text form-control"
                     placeholder="Contact name"
                     type="text"
                     id="validationCustom01"
+                    id="validationCustom02"
+                    class="was-validated"
+                    required
+                    pattern="[A-Za-z]+ +[A-Za-z]{3,}"
                   />
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
                   <div class="rectangle"></div>
                   
+
                 </div>
               </div>
             </div>
@@ -113,9 +116,10 @@
                 <div class="div">
 
                   <input
-                    class="label-text-2 label-text"
+                    class="label-text-2 label-text form-control"
                     placeholder="Street"
                     type="text"
+                    pattern="[A-Za-z]+ +[A-Za-z]{4,}"
                     required
                     name="Street"
               
@@ -130,9 +134,12 @@
               <div class="container-2">
                 <div class="div">
                   <input
-                    class="label-text label-text-3"
+                    class="label-text label-text-3 form-control"
                     placeholder="City"
+                    pattern="[A-Za-z]{3,}"
+                    id="validationCustom03"
                     type="text"
+                    required
                   />
                   
                   <div class="rectangle-2"></div>
@@ -142,8 +149,10 @@
               <div class="container-3">
                 <div class="div">
                   <input
-                    class="label-text label-text-4"
+                    class="label-text label-text-4 form-control"
                     placeholder="Postcode"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{3,}"
+                    required
                     type="text"
                   />
                  
@@ -155,9 +164,12 @@
               <div class="container">
                 <div class="div">
                   <input
-                    class="label-text label-text-2"
+                    class="label-text label-text-2 form-control"
                     placeholder="Contact Phone"
+                    pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    id="validationCustomTel"
                     type="tel"
+
                   />
                   
                   <div class="rectangle"></div>
@@ -168,9 +180,12 @@
               <div class="container">
                 <div class="div">
                   <input
-                    class="label-text label-text-2"
+                    class="label-text label-text-2 form-control"
+                    id="validationCustomUsername"
                     placeholder="E-mail"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                     type="email"
+                    required
                   />
                   
                   <div class="rectangle"></div>
@@ -181,12 +196,13 @@
               <div class="container">
                 <div class="div">
                   <textarea
-                    class="label-text-2 label-text"
+                    class="label-text-2 label-text form-control"
                     placeholder="Let’s talk about your idea"
                     name="message"
+                    pattern="[a-z]{1,30}(,[a-z]{1,30})*"
                     id=""
-                    cols="30"
-                    rows="10"
+                    cols="1000"
+                    rows="3"
                   ></textarea>
                   
                   <div class="rectangle"></div>

@@ -1,21 +1,21 @@
-const form = document.getElementById('register-form');
+const form = document.getElementById('form');
 
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 
-  const fullname = document.getElementById('fullname').value;
-  const username = document.getElementById('username').value;
-  const email = document.getElementById('email').value;
+  
   const password = document.getElementById('password').value;
   const confirmPassword = document.getElementById('confirm-password').value;
+  const confimation =document.getElementById('valid-feedback-confirm');
+  const inconfimation =document.getElementById('invalid-feedback-confirm');
 
-  // Validation du formulaire
-  if (fullname === '' || username === '' || email === '' || password === '' || confirmPassword === '') {
-    alert('Veuillez remplir tous les champs');
-  } else if (password !== confirmPassword) {
-    alert('Les mots de passe ne correspondent pas');
+ 
+  if (password !== confirmPassword) {
+    
+    inconfimation.style.display='block';
+    confimation.style.display='none';
   } else {
-    alert('Formulaire soumis avec succès');
-    form.reset();
+    inconfimation.style.display='none';
+    confimation.style.display='block';
   }
 });

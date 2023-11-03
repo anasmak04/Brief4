@@ -8,25 +8,34 @@
     padding-bottom: 140px;
     justify-content: center;
     box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+    margin: auto;
   }
 
-  .container {
-    max-width: 500px;
+  .containerGlobal .container {
+    max-width: 400px;
     width: 40%;
-    min-width: 300px;
+    min-width: 280px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
    
   }
+  .register-form{
+    width: 100%;
+  }
   .containerImg{
-    width: 60%;
+    width: 30%;
     position: relative;
   }
   .containerImg img{
     position: absolute;
     width: 100%;
-    scale: 1.11;
+    scale: 1.1;
+  }
+  .containerImg #registerimage{
+    scale: 1.5;
+    position: absolute;
+    bottom: 50px;
   }
   @media (max-width: 850px) {
     .containerImg{
@@ -79,3 +88,7 @@
   .form-group button:hover {
     background-color: #45a049;
   }
+  #invalid-feedback-confirm,#valid-feedback-confirm{
+    display: none;
+  }
+  
